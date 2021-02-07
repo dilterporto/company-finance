@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+  api:
+    build: .
+    ports:
+      - "5002:5002"
+    environment: 
+      ASPNETCORE_URLS: "http://*:5002"
+      ConnectionStrings__DefaultConnection: "Host=db;Port=5432;Database=FinanceDb;Username=myuser;Password=mypassword"
+    depends_on: 
+      - db
+  db:
+    image: postgres    
+    volumes: 
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+      POSTGRES_USER: "myuser"
+      POSTGRES_PASSWORD: "mypassword"
+      POSTGRES_DB: "FinanceDb"
+    ports:
+      - "5432:5432"            
+
