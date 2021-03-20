@@ -2,11 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Finance.Api", "src\Company.Finance.Api\Company.Finance.Api.csproj", "{357B401E-D97A-4C40-8CD0-7020D8A61AC2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Finance.Application", "Company.Finance.Application\Company.Finance.Application.csproj", "{D87F0B8D-7025-4512-AA2C-88995A5D318C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Finance.Application", "src\Company.Finance.Application\Company.Finance.Application.csproj", "{D87F0B8D-7025-4512-AA2C-88995A5D318C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Finance.Domain", "Company.Finance.Domain\Company.Finance.Domain.csproj", "{9935E778-6C3F-4A5A-9D05-FEA1DE87DEFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Finance.Domain", "src\Company.Finance.Domain\Company.Finance.Domain.csproj", "{9935E778-6C3F-4A5A-9D05-FEA1DE87DEFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Finance.Persistence", "Company.Finance.Persistence\Company.Finance.Persistence.csproj", "{390EC265-5C1B-4783-A1D7-CA6C14C2E201}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Finance.Persistence", "src\Company.Finance.Persistence\Company.Finance.Persistence.csproj", "{390EC265-5C1B-4783-A1D7-CA6C14C2E201}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
